@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="729dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Portada"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="true"
+            android:src="@drawable/greenflag2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="35dp"
+            android:layout_y="198dp"
+            android:background="#000000"
+            android:text="GreenFlag customers can \ncreate an account to access"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="61dp"
+            android:layout_y="284dp"
+            android:background="#000000"
+            android:text="Car health updates\n\nRequest a rescue online\n\nPolicy information"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="27dp"
+            android:layout_y="289dp"
+            app:srcCompat="@drawable/ic_action_name"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="26dp"
+            android:layout_y="341dp"
+            app:srcCompat="@drawable/ic_action_name"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="27dp"
+            android:layout_y="397dp"
+            app:srcCompat="@drawable/ic_action_name"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <Button
+            android:id="@+id/goto_login"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="468dp"
+            android:background="@drawable/degradado"
+            android:onClick="GoToLogin"
+            android:text="Create an account"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="629dp" />
+
+
+
+    </AbsoluteLayout>
+</android.support.constraint.ConstraintLayout>
